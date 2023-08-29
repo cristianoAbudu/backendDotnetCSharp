@@ -38,9 +38,21 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "dependencies": {
+            "Fangxf.HisServer.EntityFrameworkCore.MySql": {
+              "target": "Package",
+              "version": "[3.0.1, )"
+            },
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
               "version": "[7.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "MySqlConnector": {
+              "target": "Package",
+              "version": "[2.2.7, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
