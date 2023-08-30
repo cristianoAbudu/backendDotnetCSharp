@@ -1,6 +1,6 @@
-using MySqlConnector;
 using backendCSharp.Data;
 using Microsoft.EntityFrameworkCore;
+
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -11,9 +11,8 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-builder.Services.AddDbContext<ColaboradorDbContext>(options =>
-{
-    options.UseMySql(builder.Configuration.GetConnectionString("Default"));
+builder.Services.AddDbContext<ColaboradorDbContext>(option => {
+    option.UseMySql(ServerVersion.AutoDetect("Server=localhost;User ID=root;Password=12345678;Database=test"));
 });
 
 var app = builder.Build();
