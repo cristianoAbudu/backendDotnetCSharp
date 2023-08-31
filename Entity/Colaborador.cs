@@ -1,15 +1,19 @@
 ﻿using System;
+using System.ComponentModel.DataAnnotations.Schema;
+
 namespace backendCSharp.Entity
 {
 	public class Colaborador
 	{
-		public int id;
+        public int Id { get; set; }
 
-		public String? nome;
+        public String? Nome { get; set; }
 
-		public String? senha;
+        public String? Senha { get; set; }
 
-		public Colaborador? chefe;
-	}
+        [Column("id_chefe")]
+        public int? chefe { get; set; }
+
+    }
 }
 

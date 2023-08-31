@@ -12,7 +12,10 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 builder.Services.AddDbContext<ColaboradorDbContext>(option => {
-    option.UseMySql(ServerVersion.AutoDetect("Server=localhost;User ID=root;Password=12345678;Database=test"));
+    option.UseMySql(
+        "server=localhost; database=test; user=root; password=12345678",
+        new MySqlServerVersion(new Version(8, 0, 33))
+    );
 });
 
 var app = builder.Build();

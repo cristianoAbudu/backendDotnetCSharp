@@ -1,10 +1,3 @@
-/Users/jovemTranquilao/backendCSharp/obj/Debug/net7.0/backendCSharp.csproj.AssemblyReference.cache
-/Users/jovemTranquilao/backendCSharp/obj/Debug/net7.0/backendCSharp.GeneratedMSBuildEditorConfig.editorconfig
-/Users/jovemTranquilao/backendCSharp/obj/Debug/net7.0/backendCSharp.AssemblyInfoInputs.cache
-/Users/jovemTranquilao/backendCSharp/obj/Debug/net7.0/backendCSharp.AssemblyInfo.cs
-/Users/jovemTranquilao/backendCSharp/obj/Debug/net7.0/backendCSharp.csproj.CoreCompileInputs.cache
-/Users/jovemTranquilao/backendCSharp/obj/Debug/net7.0/backendCSharp.MvcApplicationPartsAssemblyInfo.cs
-/Users/jovemTranquilao/backendCSharp/obj/Debug/net7.0/backendCSharp.MvcApplicationPartsAssemblyInfo.cache
 /Users/jovemTranquilao/backendCSharp/bin/Debug/net7.0/appsettings.Development.json
 /Users/jovemTranquilao/backendCSharp/bin/Debug/net7.0/appsettings.json
 /Users/jovemTranquilao/backendCSharp/bin/Debug/net7.0/backendCSharp
@@ -22,6 +15,13 @@
 /Users/jovemTranquilao/backendCSharp/bin/Debug/net7.0/Swashbuckle.AspNetCore.Swagger.dll
 /Users/jovemTranquilao/backendCSharp/bin/Debug/net7.0/Swashbuckle.AspNetCore.SwaggerGen.dll
 /Users/jovemTranquilao/backendCSharp/bin/Debug/net7.0/Swashbuckle.AspNetCore.SwaggerUI.dll
+/Users/jovemTranquilao/backendCSharp/obj/Debug/net7.0/backendCSharp.csproj.AssemblyReference.cache
+/Users/jovemTranquilao/backendCSharp/obj/Debug/net7.0/backendCSharp.GeneratedMSBuildEditorConfig.editorconfig
+/Users/jovemTranquilao/backendCSharp/obj/Debug/net7.0/backendCSharp.AssemblyInfoInputs.cache
+/Users/jovemTranquilao/backendCSharp/obj/Debug/net7.0/backendCSharp.AssemblyInfo.cs
+/Users/jovemTranquilao/backendCSharp/obj/Debug/net7.0/backendCSharp.csproj.CoreCompileInputs.cache
+/Users/jovemTranquilao/backendCSharp/obj/Debug/net7.0/backendCSharp.MvcApplicationPartsAssemblyInfo.cs
+/Users/jovemTranquilao/backendCSharp/obj/Debug/net7.0/backendCSharp.MvcApplicationPartsAssemblyInfo.cache
 /Users/jovemTranquilao/backendCSharp/obj/Debug/net7.0/staticwebassets/msbuild.backendCSharp.Microsoft.AspNetCore.StaticWebAssets.props
 /Users/jovemTranquilao/backendCSharp/obj/Debug/net7.0/staticwebassets/msbuild.build.backendCSharp.props
 /Users/jovemTranquilao/backendCSharp/obj/Debug/net7.0/staticwebassets/msbuild.buildMultiTargeting.backendCSharp.props

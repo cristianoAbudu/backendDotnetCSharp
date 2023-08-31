@@ -1,7 +1,7 @@
 using Microsoft.AspNetCore.Mvc;
 using backendCSharp.Data;
 using Microsoft.AspNetCore.Mvc;
-
+using backendCSharp.Entity;
 
 namespace backendCSharp.Controllers;
 
@@ -32,7 +32,11 @@ public class WeatherForecastController : ControllerBase
     [HttpGet]
     public async Task<IActionResult> GetAsync()
     {
-        var colaboradorList =  _colaboradorDbContext.ColaboradorList;
+        var colaboradorList =  _colaboradorDbContext.Colaborador;
+        foreach (var colaborador in colaboradorList)
+        {
+            //_colaboradorDbContext.Colaborador(0);
+        }
         return Ok(colaboradorList);
     }
 }

@@ -10,7 +10,8 @@ namespace backendCSharp.Data
         {
 
         }
-        public DbSet<Colaborador> ColaboradorList { get; set; }
+
+        public DbSet<Colaborador> Colaborador { get; set; }
     }
 }
 
