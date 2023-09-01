@@ -1,13 +1,17 @@
 ﻿<Properties StartupConfiguration="{0C9A21B3-019B-4019-A0D7-C635978A6C21}|https">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Entity/Colaborador.cs">
+  <MonoDevelop.Ide.ItemProperties.backendCSharp PreferredExecutionTarget="/Applications/Safari.app" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workbench ActiveDocument="Controllers/WeatherForecastController.cs">
     <Files>
-      <File FileName="Program.cs" Line="5" Column="1" />
-      <File FileName="appsettings.json" Line="10" Column="17" />
-      <File FileName="Controllers/WeatherForecastController.cs" Line="30" Column="1" />
-      <File FileName="Entity/EmptyClass.cs" Line="5" Column="3" />
-      <File FileName="Data/EmptyClass.cs" Line="12" Column="10" />
+      <File FileName="Program.cs" Line="17" Column="51" />
+      <File FileName="appsettings.json" />
+      <File FileName="Controllers/WeatherForecastController.cs" Line="38" Column="15" />
       <File FileName="appsettings.Development.json" Line="6" Column="6" />
       <File FileName="WeatherForecast.cs" Line="1" Column="1" />
+      <File FileName="Entity/Colaborador.cs" Line="15" Column="26" />
+      <File FileName="Data/ColaboradorDbContext.cs" Line="14" Column="60" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -16,25 +20,16 @@
             <Node name="backendCSharp">
               <Node name="Controllers" expanded="True" />
               <Node name="Data" expanded="True" />
-              <Node name="Entity" expanded="True">
-                <Node name="Colaborador.cs" selected="True" />
-              </Node>
+              <Node name="Entity" expanded="True" />
               <Node name="Properties" expanded="True" />
               <Node name="appsettings.json" expanded="True" />
             </Node>
           </Node>
         </State>
       </Pad>
-      <Pad Id="MonoDevelop.Debugger.WatchPad">
-        <State />
-      </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.backendCSharp PreferredExecutionTarget="/Applications/Safari.app" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
 </Properties>

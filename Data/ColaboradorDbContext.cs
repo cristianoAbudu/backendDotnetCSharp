@@ -12,6 +12,7 @@ namespace backendCSharp.Data
         }
 
         public DbSet<Colaborador> Colaborador { get; set; }
+
     }
 }
 
