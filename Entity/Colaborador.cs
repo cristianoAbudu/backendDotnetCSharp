@@ -1,11 +1,16 @@
 ﻿using System;
+using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
+
 
 namespace backendCSharp.Entity
 {
-	public class Colaborador
+
+    public class Colaborador
 	{
-        public int? Id { get; set; }
+        [Key]
+        [DatabaseGenerated(DatabaseGeneratedOption.Identity)] // Identity indicates auto-increment
+        public int Id { get; set; }
 
         public String? Nome { get; set; }
 

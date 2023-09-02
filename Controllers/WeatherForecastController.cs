@@ -12,12 +12,6 @@ public class WeatherForecastController : ControllerBase
 {
     private readonly ColaboradorDbContext _colaboradorDbContext;
 
-
-    private static readonly string[] Summaries = new[]
-    {
-        "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
-    };
-
     private readonly ILogger<WeatherForecastController> _logger;
 
     public WeatherForecastController(
@@ -76,10 +70,26 @@ public class WeatherForecastController : ControllerBase
             colaboradorEntity.Nome = colaborador.Nome;
             colaboradorEntity.Senha = colaborador.Senha;
             colaboradorEntity.IdChefe = colaborador.IdChefe;
-            _colaboradorDbContext.Add(colaboradorEntity);
+            _colaboradorDbContext.Colaborador.Add(colaboradorEntity);
         }
 
-        _colaboradorDbContext.SaveChangesAsync();
+        _colaboradorDbContext.SaveChanges();
+        return Ok(colaboradorEntity);
+    }
+
+    [HttpPost("/associaChefe")]
+    public async Task<IActionResult> associarChefe(
+        AssociaChefeDTO associaChefeDTO
+       )
+    {
+        Colaborador colaboradorEntity = (Colaborador)_colaboradorDbContext.Find(typeof(Colaborador),
+            associaChefeDTO.IdSubordinado);
+
+        if (associaChefeDTO.IdChefe != associaChefeDTO.IdSubordinado)
+        {
+            colaboradorEntity.IdChefe = associaChefeDTO.IdChefe;
+            _colaboradorDbContext.SaveChanges();
+        }
         return Ok(colaboradorEntity);
     }
 }
