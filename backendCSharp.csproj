@@ -18,10 +18,12 @@
     <None Remove="Entity\" />
     <None Remove="Data\" />
     <None Remove="DTO\" />
+    <None Remove="Business\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Entity\" />
     <Folder Include="Data\" />
     <Folder Include="DTO\" />
+    <Folder Include="Business\" />
   </ItemGroup>
 </Project>

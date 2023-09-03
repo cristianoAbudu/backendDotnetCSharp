@@ -1,16 +1,15 @@
+using backendCSharp.Controllers;
 using backendCSharp.Data;
 using Microsoft.EntityFrameworkCore;
 
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
-
 builder.Services.AddControllers();
-// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
+builder.Services.AddScoped<ColaboradorBusiness>();
 builder.Services.AddDbContext<ColaboradorDbContext>(option => {
     option.UseMySql(
         "server=localhost; database=test; user=root; password=12345678",
@@ -20,7 +19,6 @@ builder.Services.AddDbContext<ColaboradorDbContext>(option => {
 
 var app = builder.Build();
 
-// Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();

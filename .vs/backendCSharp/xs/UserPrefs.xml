@@ -1,50 +1,35 @@
 ﻿<Properties StartupConfiguration="{0C9A21B3-019B-4019-A0D7-C635978A6C21}|https">
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore>
-      <Breakpoint file="/Users/jovemTranquilao/backendCSharp/Controllers/WeatherForecastController.cs" relfile="Controllers/WeatherForecastController.cs" line="83" column="1" />
-      <Breakpoint file="/Users/jovemTranquilao/backendCSharp/Controllers/WeatherForecastController.cs" relfile="Controllers/WeatherForecastController.cs" line="79" column="1" />
-    </BreakpointStore>
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.ItemProperties.backendCSharp PreferredExecutionTarget="/Applications/Safari.app" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Entity/Colaborador.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Data/ColaboradorDbContext.cs">
     <Files>
       <File FileName="Program.cs" />
       <File FileName="appsettings.json" />
-      <File FileName="Controllers/WeatherForecastController.cs" Line="83" Column="1" />
-      <File FileName="appsettings.Development.json" Line="6" Column="6" />
-      <File FileName="WeatherForecast.cs" Line="1" Column="1" />
-      <File FileName="Entity/Colaborador.cs" Line="12" Column="1" />
-      <File FileName="Data/ColaboradorDbContext.cs" Line="15" Column="1" />
-      <File FileName="DTO/Colaborador.cs" Line="14" Column="24" />
+      <File FileName="Controllers/WeatherForecastController.cs" Line="10" Column="24" />
+      <File FileName="appsettings.Development.json" />
+      <File FileName="WeatherForecast.cs" />
+      <File FileName="Entity/Colaborador.cs" />
+      <File FileName="Data/ColaboradorDbContext.cs" Line="24" Column="1" />
+      <File FileName="DTO/ColaboradorDTO.cs" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="backendCSharp">
+          <Node name="backendCSharp" selected="True">
             <Node name="backendCSharp">
-              <Node name="Controllers" expanded="True" />
               <Node name="Data" expanded="True" />
               <Node name="DTO" expanded="True" />
-              <Node name="Entity">
-                <Node name="Colaborador.cs" selected="True" />
-              </Node>
-              <Node name="appsettings.json" expanded="True" />
+              <Node name="Entity" expanded="True" />
+              <Node name="Properties" expanded="True" />
             </Node>
           </Node>
         </State>
       </Pad>
-      <Pad Id="MonoDevelop.Debugger.WatchPad">
-        <State>
-          <Value>                _colaboradorDbContext.Find(typeof(Colaborador), colaborador.chefe);</Value>
-          <Value>colaboradorEntity</Value>
-          <Value>colaboradorEntity</Value>
-          <Value>colaborador</Value>
-          <Value>_colaboradorDbContext.SaveChangesAsync()</Value>
-        </State>
-      </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.backendCSharp PreferredExecutionTarget="/Applications/Safari.app" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
 </Properties>

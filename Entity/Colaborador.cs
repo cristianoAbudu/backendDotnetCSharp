@@ -1,15 +1,12 @@
-﻿using System;
-using System.ComponentModel.DataAnnotations;
+﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
-
 
 namespace backendCSharp.Entity
 {
-
     public class Colaborador
 	{
         [Key]
-        [DatabaseGenerated(DatabaseGeneratedOption.Identity)] // Identity indicates auto-increment
+        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int Id { get; set; }
 
         public String? Nome { get; set; }
@@ -20,7 +17,7 @@ namespace backendCSharp.Entity
         public int? IdChefe { get; set; }
 
         [NotMapped]
-        public Colaborador chefe { get; set; }
+        public Colaborador? chefe { get; set; }
 
     }
 }
